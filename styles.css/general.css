@@ -1,0 +1,17 @@
+body {
+  background-color: var(--light-gray);
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --white: hsl(0, 100%, 100%);
+  --white-2: hsla(0, 100%, 100%, 0.5);
+  --cyan: hsl(179, 62%, 43%);
+  --cyan-2: hsla(179, 62%, 43%, 0.5);
+  --bright-yellow: hsl(71, 73%, 54%);
+  --light-gray: hsl(204, 43%, 93%);
+  --graylish-blue: hsl(218, 22%, 67%);
+}

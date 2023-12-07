@@ -1,0 +1,132 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+  max-width: 620px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px var(--graylish-blue);
+}
+
+.top-container {
+  background-color: var(--white);
+  padding: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+header {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--cyan);
+  margin-bottom: 20px;
+}
+
+.hassle-free {
+  font-weight: 700;
+  color: var(--bright-yellow);
+  margin-bottom: 20px;
+}
+
+.community-description {
+  color: var(--graylish-blue);
+}
+
+.bottom-container {
+  display: flex;
+  color: var(--white);
+}
+
+.left-container {
+  position: relative;
+  flex: 1;
+  padding: 30px;
+  background-color: var(--cyan);
+  border-bottom-left-radius: 10px;
+}
+
+h1, h2 {
+  font-size: 18px;
+}
+
+.payment {
+  display: flex;
+  align-items: center;
+  color: var(--white-2);
+  margin-bottom: 5px;
+}
+
+.monthly-price {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.sign-up-button {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  right: 30px;
+  padding: 12px;
+  background-color: var(--bright-yellow);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 20px 20px var(--cyan-2);
+  transition: opacity 0.15s;
+  cursor: pointer;
+}
+
+.sign-up-button:hover {
+  opacity: 0.8;
+}
+
+.sign-up-button:active {
+  opacity: 0.65;
+}
+
+.right-container {
+  flex: 1;
+  padding: 30px;
+  background-color: var(--cyan-2);
+  border-bottom-right-radius: 10px;
+}
+
+.why-us-description {
+  color: var(--white-2);
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 375px) {
+  .main-container {
+    margin: 50px 8px;
+    max-width: 360px;
+  }
+
+  .bottom-container {
+    flex-direction: column;
+  }
+
+  .left-container {
+    border-radius: unset;
+  }
+
+  .sign-up-button {
+    position: unset;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .right-container {
+    border-bottom-left-radius: 10px;
+  }
+}
